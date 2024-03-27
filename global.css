@@ -1,0 +1,86 @@
+html,
+body,
+body>div:first-child,
+div#__next,
+div#__next>div {
+    height: max-content;
+}
+
+.overflow {
+    height: 50%;
+    overflow: hidden;
+    max-height: 200px;
+}
+
+.overflow-companies {
+    height: 100%;
+    overflow: hidden;
+    max-height: 200px;
+}
+
+.overflow .card-img-top {
+    transform: scale(1);
+    transition: all 0.2s ease-in-out;
+}
+
+.overflow .card-img-top:hover {
+    transform: scale(1.8);
+}
+
+#nprogress .bar {
+    background: #ff5367 !important;
+}
+
+#nprogress .spinner-icon {
+    border-top-color: #ffbb00;
+    border-left-color: #ffbb00;
+}
+
+/* Definir la altura de la Navbar como variable */
+:root {
+    --navbar-height: 60px;
+}
+
+body {
+    padding-top: var(--navbar-height);
+}
+
+.navbar {
+    height: var(--navbar-height);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.fixed-background {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    text-align: center; /* Asegura que el texto dentro del contenedor también esté centrado */
+    height: 40vh; /* Ajusta la altura según necesites */
+    background-image: url('/background.webp'); /* Asegúrate de tener tu imagen aquí */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    color: white; /* Establece el color del texto a blanco */
+}
+
+.fixed-background h1, .fixed-background h3 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.66); /* Añade sombra al texto para mejorar la legibilidad */
+    z-index: 2; /* Asegúrate de que el texto tenga un z-index para colocarlo sobre el overlay */
+    position: relative; /* Importante para que el z-index funcione correctamente */
+}
+
+.fixed-background::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(53, 53, 51, 0.486); /* Ajusta la oscuridad del overlay aquí */
+    z-index: 1; /* Asegúrate de que esto sea menor que el z-index del contenido */
+    pointer-events: none; /* Evita que el overlay interfiera con la interacción */
+}
