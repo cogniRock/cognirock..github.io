@@ -67,14 +67,14 @@ const Index = () => (
          {/** Companies */}
          <div className="row w-75 mx-auto">
             <div className="col-md-12 w-75 mx-auto">
-                <div className="card card-body bg-light">
+                <div className="card card-body bg-light ">
                     <div className="row">
 
 
                         {
                             companies.map(({ image,url}, index) => (
-                                <div className="col-md-2 p-2" key={index}>
-                                    <div className="card h-100 w-100 mx-auto">
+                                <div className="col-md-2 p-1" key={index}>
+                                    <div className="card h-100 w-100">
                                         <div className="overflow-companies overflow">
                                             <img src={`/${image}`} alt="" className='card-img-top' />
                                         </div>
@@ -107,7 +107,7 @@ const Index = () => (
                     <div className="row">
                         {
                             travel_companies.map(({ image,url}, index) => (
-                                <div className="col-md-2 p-2" key={index}>
+                                <div className="col-md-3 p-1" key={index}>
                                     <div className="card h-100 w-100 mx-auto">
                                         <div className="overflow-companies overflow">
                                             <img src={`/${image}`} alt="" className='card-img-top' />

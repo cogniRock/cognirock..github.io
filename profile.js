@@ -97,32 +97,32 @@ export const projects = [
     {
         name: "Awesomme",
         description: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)",
-        image: "portfolio1.jpeg"
+        image: ""
     },
     {
         name: "Awesomme",
         description: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)",
-        image: "portfolio1.jpeg"
+        image: ""
     },
     {
         name: "Awesomme",
         description: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)",
-        image: "portfolio1.jpeg"
+        image: ""
     },
     {
         name: "Awesomme",
         description: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)",
-        image: "portfolio1.jpeg"
+        image: ""
     },
     {
         name: "Awesomme",
         description: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)",
-        image: "portfolio1.jpeg"
+        image: ""
     },
     {
         name: "Awesomme",
         description: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)",
-        image: "portfolio1.jpeg"
+        image: ""
     }
 ]
 
@@ -216,125 +216,157 @@ export const services = [
 export const travel_companies = [
     {
         url: "",
-        image: "portfolio1.jpeg"
+        image: "companies/travel/aeromexico.webp"
     },
     {
         url: "",
-        image: "portfolio1.jpeg"
+        image: "companies/travel/Best-Day-Travel-Group.webp"
     },
     {
         url: "",
-        image: "portfolio1.jpeg"
+        image: "companies/travel/dome.webp"
     },
     {
         url: "",
-        image: "portfolio1.jpeg"
+        image: "companies/travel/edream.webp"
     },
     {
         url: "",
-        image: "portfolio1.jpeg"
+        image: "companies/travel/kiwi.webp"
     },
     {
         url: "",
-        image: "portfolio1.jpeg"
+        image: "companies/travel/segundohogar.webp"
     },
     {
         url: "",
-        image: "portfolio1.jpeg"
+        image: "companies/travel/Travelgate.webp"
     },
     {
         url: "",
-        image: "portfolio1.jpeg"
-    },
-    {
-        url: "",
-        image: "portfolio1.jpeg"
-    },
-    {
-        url: "",
-        image: "portfolio1.jpeg"
-    },
-    {
-        url: "",
-        image: "portfolio1.jpeg"
-    },
-    {
-        url: "",
-        image: "portfolio1.jpeg"
+        image: "companies/travel/valencia.webp"
     }
 ];
 
 export const companies = [
     {
         url: "",
-        image: "portfolio1.jpeg"
+        image: "companies/no-travel/apiaddicts.webp"
     },
     {
         url: "",
-        image: "portfolio1.jpeg"
+        image: "companies/no-travel/azure.webp"
     },
     {
         url: "",
-        image: "portfolio1.jpeg"
+        image: "companies/no-travel/bcs.webp"
     },
     {
         url: "",
-        image: "portfolio1.jpeg"
+        image: "companies/no-travel/caixabank.webp"
     },
     {
         url: "",
-        image: "portfolio1.jpeg"
+        image: "companies/no-travel/cenatic.webp"
     },
     {
         url: "",
-        image: "portfolio1.jpeg"
+        image: "companies/no-travel/consorcio.webp"
     },
     {
         url: "",
-        image: "portfolio1.jpeg"
+        image: "companies/no-travel/ding.webp"
     },
     {
         url: "",
-        image: "portfolio1.jpeg"
+        image: "companies/no-travel/dvloop.webp"
     },
     {
         url: "",
-        image: "portfolio1.jpeg"
+        image: "companies/no-travel/elParaguay.webp"
     },
     {
         url: "",
-        image: "portfolio1.jpeg"
+        image: "companies/no-travel/elprado.webp"
     },
     {
         url: "",
-        image: "portfolio1.jpeg"
+        image: "companies/no-travel/emergn.webp"
     },
     {
         url: "",
-        image: "portfolio1.jpeg"
+        image: "companies/no-travel/emergya.webp"
     },
     {
         url: "",
-        image: "portfolio1.jpeg"
+        image: "companies/no-travel/flex.webp"
     },
     {
         url: "",
-        image: "portfolio1.jpeg"
+        image: "companies/no-travel/google.webp"
     },
     {
         url: "",
-        image: "portfolio1.jpeg"
+        image: "companies/no-travel/guadalinfo.webp"
     },
     {
         url: "",
-        image: "portfolio1.jpeg"
+        image: "companies/no-travel/hp.webp"
     },
     {
         url: "",
-        image: "portfolio1.jpeg"
+        image: "companies/no-travel/Infojobs-Spain.webp"
     },
     {
         url: "",
-        image: "portfolio1.jpeg"
+        image: "companies/no-travel/ITURRI.webp"
+    },
+    {
+        url: "",
+        image: "companies/no-travel/juntaandalucia.webp"
+    },
+    {
+        url: "",
+        image: "companies/no-travel/microsoft.webp"
+    },
+    {
+        url: "",
+        image: "companies/no-travel/nttdata.webp"
+    },
+    {
+        url: "",
+        image: "companies/no-travel/ProgramUtvikling.webp"
+    },
+    {
+        url: "",
+        image: "companies/no-travel/red_es.webp"
+    },
+    {
+        url: "",
+        image: "companies/no-travel/santander.webp"
+    },
+    {
+        url: "",
+        image: "companies/no-travel/scrumorg.webp"
+    },
+    {
+        url: "",
+        image: "companies/no-travel/McK.webp"
+    },
+    {
+        url: "",
+        image: "companies/no-travel/Spil_Games.webp"
+    },
+    {
+        url: "",
+        image: "companies/no-travel/telefonica.webp"
+    },
+    {
+        url: "",
+        image: "companies/no-travel/thyssen.webp"
+    },
+    {
+        url: "",
+        image: "companies/no-travel/vodafone.webp"
     }
 ]

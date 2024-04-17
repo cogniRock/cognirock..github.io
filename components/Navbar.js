@@ -1,6 +1,7 @@
 import Link from 'next/link'
 
 const Navbar = () => (
+    
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark" style={{ position: 'fixed', top: 0, padding: '10px', width: '100%', zIndex: 1000 }}>
         <div className="container">
             <Link className="navbar-brand" href="/">
