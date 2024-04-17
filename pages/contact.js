@@ -123,7 +123,6 @@ const Contact = () => {
             <div className="p-4 border rounded-3 shadow-sm bg-white"> {/* Estilos para la info de contacto */}
               <h2 className="mb-3">Contact Information</h2>
               <p className="mb-2"><strong>Email:</strong> hello@cognirock.com</p>
-              <p className="mb-4"><strong>Phone:</strong> +1234567890</p>
               {/* Redes Sociales */}
               <h3 className="mb-3">Follow Us</h3>
               <a href="https://facebook.com" className="btn btn-outline-primary btn-sm me-2 mb-2">Facebook</a>
